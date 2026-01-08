@@ -2,7 +2,7 @@
 
 function isPalindrome(string) {
   const plain = string.toLowerCase();
-  const reversed = plain.split("").reverse().join("");
+  const reversed = [...plain].reverse().join("");
   return plain === reversed;
 }
 
