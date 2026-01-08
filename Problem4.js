@@ -1,3 +1,5 @@
+// Write a function that takes an array of numbers and returns the largest number.
+
 function Largest(arr) {
   return Math.max(...arr);
 }
